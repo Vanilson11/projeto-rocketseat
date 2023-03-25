@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased; /*Webkit (motor interpretador do navegador. Ou seja, como é interpretado html, css, js no navegador. Todo navegador que usa esse motor irá receber o font-smoothing (que recebe o valor antialiased, ou seja, recebe uma linha mais fina, suave) */
+    -moz-osx-font-smoothing: grayscale; /* MOZ(todo navegador que for mozila, como o FireFox). Ou seja, em todo navegador cujo o motor interpretador for mozila, será aplicado o font-smoothing. */
+}
+
+body{
+    text-align: center;
+    background: url(https://i.ibb.co/3r1s9GS/background-image.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h3{
+    margin-top: 160px;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+h3 > span{
+    color: #FFC700;
+}
+
+h1{
+    color: #FFC700;
+    font-family: 'Emilys Candy', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px; /*Altura entre cada linha da caixa */
+
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+    opacity: .7;
+}
+
+a{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 12px 32px;
+    color: white;
+    opacity: .6;
+}
+
+a:hover,
+.play{
+    background-color: #FFC700;
+    color: black;
+    text-decoration: none;
+    opacity: 1;
+}
+.read{
+    color: white;
+}
